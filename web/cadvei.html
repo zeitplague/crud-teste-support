@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cadastro de Veículos</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <form method="post" action="cadastrar_veiculos.jsp">
+            <p>
+                <label for="placa">Placa do Veículo:</label>
+                <input type="text" name="placa" id="placa" maxlength="10" required>
+            </p>
+            <p>
+                <label for="marca">Marca do Veículo:</label>
+                <input type="text" name="marca" id="marca" size="50" required>
+            </p>
+            <p>
+                <label for="modelo">Modelo do Veículo:</label>
+                <input type="text" name="modelo" id="modelo" size="50" required>
+            </p>
+            <p>
+                <label for="tipo_veiculo">Tipo do Veículo:</label>
+                <select name="tipo_veiculo" id="tipo_veiculo" required>
+                    <option value="">Selecione</option>
+                    <option value="Carro">Carro</option>
+                    <option value="Moto">Moto</option>
+                    <option value="Caminhão">Caminhão</option>
+                    <option value="Ônibus">Ônibus</option>
+                </select>
+            </p>
+            <p>
+                <input type="submit" value="Cadastrar">
+            </p>
+        </form>
+    </body>
+</html>
