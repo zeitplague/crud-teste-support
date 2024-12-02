@@ -45,5 +45,6 @@ Connection conecta = DriverManager.getConnection("jdbc:mysql://localhost:3306/po
 
 7. Inicie o servidor Tomcat e acesse a aplicação via navegador: http://localhost:8080/crud/
 
-Contato
-Para dúvidas ou sugestões, entre em contato pelo e-mail: seu-email@exemplo.com.
+## Alternativa Caso Não Rode
+
+Nesse link tem uma demonstração do funcionamento do CRUD: https://youtu.be/hPh1-s0kyF0
